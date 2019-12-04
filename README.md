@@ -1,6 +1,7 @@
 # MonteCarloCS3M
-Author: Nicolás Vergara, Based on the work of Prof. Frank Pollmann, Prof. Michael Knap, Johannes Hauschild from TUM. 
-This a series of execises developed for the 2nd Colombian School on Magnetism and Magnetic Materials (CS3M) 2019, in order to understand how to apply montecarlo methods to the simulation of Magnetic Materials. The exercises will be based on python.
+Author: Nicolás Vergara, Based on the work of Prof. Frank Pollmann, Prof. Michael Knap, Johannes Hauschild from TUM.
+
+This repository is composed of a series of execises developed for the 2nd Colombian School on Magnetism and Magnetic Materials (CS3M) 2019, in order to understand how to apply montecarlo methods to the simulation of Magnetic Materials. The exercises will be based on python.
 ## Setup 
 If you are completely new to python, a good introduction for our course are the scipy lectures  If you have a laptop, a very good python distribution is provided by Anaconda, available at https://www.anaconda.com/download. It ships with jupyter, uses Intel MKL and comes with the numba package.   The [numba package](http://numba.pydata.org/) is used in some of the codes for optimization. This brings in some cases a speed up of up to 100, installing numba is therefore highly recommended.  If you really have big trouble installing numba, or find the error messages produced by it too confusing,  you can copy the file `numba.py` providing a dummy `@jit` decorator into the other folders.  The price is that you loose the speed-up... To start a jupyter notebook, follow these steps: 
 1. Open a terminal
